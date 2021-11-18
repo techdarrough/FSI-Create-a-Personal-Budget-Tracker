@@ -20,7 +20,7 @@ while (i < monthlyExpenseQuestions.lenght) {
     
     
 }
-while (i < weeklyExpenseQuestions.lenght) {
+while (i < annualExpenseQuestions.lenght) {
     i++;
     let answer = window.prompt(annualExpenseQuestions[i])
     annualExpenses = annualExpenses + parseInt(answer)
