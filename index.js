@@ -8,8 +8,28 @@ let annualExpenses = 0
 let i = 0
 while (i < weeklyExpenseQuestions.lenght) {
     i++;
-    let answer = window.prompt(weeklyExpenseQuestions[i]) 
+    let answer = window.prompt(weeklyExpenseQuestions[i])
+    weeklyExpenses = weeklyExpenses + parseInt(answer)
+    
+    
 }
+while (i < monthlyExpenseQuestions.lenght) {
+    i++;
+    let answer = window.prompt(monthlyExpenseQuestions[i])
+    monthlyExpenses = monthlyExpenses + parseInt(answer)
+    
+    
+}
+while (i < weeklyExpenseQuestions.lenght) {
+    i++;
+    let answer = window.prompt(annualExpenseQuestions[i])
+    annualExpenses = annualExpenses + parseInt(answer)
+    
+    
+}
+
+
+
 
 // for (let i = 0; i < weeklyExpenseQuestions.length; i++) {
 // let answer = window.prompt(weeklyExpenseQuestions[i]);
